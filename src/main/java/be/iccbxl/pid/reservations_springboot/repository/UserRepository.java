@@ -1,22 +1,14 @@
 package be.iccbxl.pid.reservations_springboot.repository;
 
 import java.util.List;
-import java.util.Optional;
-
-import org.springframework.data.repository.CrudRepository;
 
 import be.iccbxl.pid.reservations_springboot.model.User;
+import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {
-	User findByLogin(String login);
-
 	List<User> findByLastname(String lastname);
 
 	User findById(long id);
-
-	Optional<User> findByEmail(String email);
-
-	boolean existsByEmail(String email);
-
-	boolean existsByLogin(String login);
+	User findByLogin(String login);
+	User findByEmail(String email);
 }

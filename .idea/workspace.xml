@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Update templates Show (added artists’ list)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10_1__create_users_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10_2__insert_users_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11_1__create_user_role_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11_2__insert_user_role_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/User.java" afterDir="false" />
+    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Relation ManyToMany between User &amp; Role">
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764705775435</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Relation ManyToMany between User &amp; Role">
+      <created>1764705955580</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1764705955580</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +243,7 @@
     <MESSAGE value="Update templates Artist &amp; Type" />
     <MESSAGE value="Relation ManyToMany between ArtistType &amp; Show" />
     <MESSAGE value="Update templates Show (added artists’ list)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update templates Show (added artists’ list)" />
+    <MESSAGE value="Relation ManyToMany between User &amp; Role" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation ManyToMany between User &amp; Role" />
   </component>
 </project>

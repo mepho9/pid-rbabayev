@@ -21,23 +21,6 @@ public class UserService {
 
 	@Autowired
 	private PasswordEncoder passwordEncoder;
-
-	public List<User> getAllUsers() {
-		List<User> users = new ArrayList<>();
-
-		userRepository.findAll().forEach(users::add);
-
-		return users;
-	}
-	public void deleteByLogin(String login) {
-		User user = userRepository.findByLogin(login);
-		userRepository.delete(user);
-	}
-
-	public User getUser(long id) {
-		return userRepository.findById(id);
-	}
-
 	public User findByEmail(String email) {
 		return userRepository.findByEmail(email).orElse(null);
 	}
@@ -55,10 +38,6 @@ public class UserService {
 		user.setLangue(dto.getLangue());
 		user.setPassword(passwordEncoder.encode(dto.getPassword()));
 		user.setRole(UserRole.MEMBER);
-		userRepository.save(user);
-	}
-
-	public void updateUser(long id, User user) {
 		userRepository.save(user);
 	}
 
@@ -90,5 +69,34 @@ public class UserService {
 			userRepository.save(user);
 		});
 	}
+
+	public List<User> getAllUsers() {
+		List<User> users = new ArrayList<>();
+
+		repository.findAll().forEach(users::add);
+
+		return users;
+	}
+
+	public User getUser(String id) {
+		int indice = Integer.parseInt(id);
+
+		return repository.findById(indice);
+	}
+
+	public void addUser(User user) {
+		repository.save(user);
+	}
+
+	public void updateUser(String id, User user) {
+		repository.save(user);
+	}
+
+	public void deleteUser(String id) {
+		Long indice = (long) Integer.parseInt(id);
+
+		repository.deleteById(indice);
+	}
+
 
 }
