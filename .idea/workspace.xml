@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Controller Representation +templates +routes">
+    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Relation ManyToMany between Artist &amp; Type">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V8_1__create_artist_type_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V8_2__insert_artist_type_table.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/show/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/show/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/artist/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/artist/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/type/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/type/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764705091026</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Templates Show: affichage des représentations">
+      <created>1764705174964</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764705174964</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +209,8 @@
     <MESSAGE value="Controller Show +templates +routes" />
     <MESSAGE value="Modèle Representation +Relation ManyToOne with Location &amp; Show" />
     <MESSAGE value="Controller Representation +templates +routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller Representation +templates +routes" />
+    <MESSAGE value="Templates Show: affichage des représentations" />
+    <MESSAGE value="Relation ManyToMany between Artist &amp; Type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation ManyToMany between Artist &amp; Type" />
   </component>
 </project>
