@@ -13,28 +13,32 @@ import be.iccbxl.pid.reservations_springboot.repository.ArtistRepository;
 public class ArtistService {
 	@Autowired
 	private ArtistRepository artistRepository;
-		
+
 	public List<Artist> getAllArtists() {
 		List<Artist> artists = new ArrayList<>();
-		
+
 		artistRepository.findAll().forEach(artists::add);
+
 		return artists;
 	}
-	
-	public Artist getArtist(long id) {
-		return artistRepository.findById(id);
+
+	public Artist getArtist(String id) {
+		int indice = Integer.parseInt(id);
+
+		return artistRepository.findById(indice);
 	}
- 
+
 	public void addArtist(Artist artist) {
 		artistRepository.save(artist);
 	}
- 
-	public void updateArtist(long id, Artist artist) {
+
+	public void updateArtist(String id, Artist artist) {
 		artistRepository.save(artist);
 	}
- 
-	public void deleteArtist(long id) {
-		artistRepository.deleteById(id);
-	}
 
+	public void deleteArtist(String id) {
+		Long indice = (long) Integer.parseInt(id);
+
+		artistRepository.deleteById(indice);
+	}
 }

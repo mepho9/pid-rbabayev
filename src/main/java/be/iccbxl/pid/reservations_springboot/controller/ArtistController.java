@@ -37,7 +37,7 @@ public class ArtistController {
 
 	@GetMapping("/artists/{id}")
 	public String show(Model model, @PathVariable("id") long id) {
-		Artist artist = service.getArtist(id);
+		Artist artist = service.getArtist(String.valueOf(id));
 
 		model.addAttribute("artist", artist);
 		model.addAttribute("title", "Fiche d'un artiste");
@@ -47,7 +47,7 @@ public class ArtistController {
 
 	@GetMapping("/artists/{id}/edit")
 	public String edit(Model model, @PathVariable long id, HttpServletRequest request) {
-		Artist artist = service.getArtist(id);
+		Artist artist = service.getArtist(String.valueOf(id));
 
 		model.addAttribute("artist", artist);
 
@@ -73,13 +73,13 @@ public class ArtistController {
 		return "artist/edit";
 	    }
 		
-	    Artist existing = service.getArtist(id);
+	    Artist existing = service.getArtist(String.valueOf(id));
 		
 	    if(existing==null) {
 		    return "artist/index";
 	    }		
 	
-	    service.updateArtist(id, artist);
+	    service.updateArtist(String.valueOf(id), artist);
 	    redirAttrs.addFlashAttribute("successMessage", "Artiste modifié avec succès.");
     
 	    return "redirect:/artists/"+artist.getId();
@@ -114,10 +114,10 @@ public class ArtistController {
 
 	@DeleteMapping("/artists/{id}")
 	public String delete(@PathVariable long id, Model model, RedirectAttributes redirAttrs) {
-	    Artist existing = service.getArtist(id);
+	    Artist existing = service.getArtist(String.valueOf(id));
 		
 	    if(existing!=null) {		
-	    	service.deleteArtist(id);
+	    	service.deleteArtist(String.valueOf(id));
 	    	
 	    	redirAttrs.addFlashAttribute("successMessage", "Artiste supprimé avec succès.");
 	    } else {
