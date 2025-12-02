@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Relation ManyToMany between ArtistType &amp; Show">
+    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Update templates Show (added artists’ list)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10_1__create_users_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10_2__insert_users_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11_1__create_user_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11_2__insert_user_role_table.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/representation/representation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/representation/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/show/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/show/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764705645547</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update templates Show (added artists’ list)">
+      <created>1764705775435</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764705775435</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +241,7 @@
     <MESSAGE value="Relation ManyToMany between Artist &amp; Type" />
     <MESSAGE value="Update templates Artist &amp; Type" />
     <MESSAGE value="Relation ManyToMany between ArtistType &amp; Show" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation ManyToMany between ArtistType &amp; Show" />
+    <MESSAGE value="Update templates Show (added artists’ list)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update templates Show (added artists’ list)" />
   </component>
 </project>
