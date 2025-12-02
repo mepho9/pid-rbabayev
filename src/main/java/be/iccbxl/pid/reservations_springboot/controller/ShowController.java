@@ -27,11 +27,24 @@ public class ShowController {
 
         return "show/index";
     }
-
     @GetMapping("/shows/{id}")
     public String show(Model model, @PathVariable("id") String id) {
         Show show = service.get(id);
 
+        //Récupérer les artistes du spectacle et les grouper par type
+        Map<String,ArrayList<Artist>> collaborateurs = new TreeMap<>();
+
+        for(ArtistType at : show.getArtistTypes()) {
+            String type = at.getType().getType();
+
+            if(collaborateurs.get(type) == null) {
+                collaborateurs.put(type, new ArrayList<>());
+            }
+
+            collaborateurs.get(type).add(at.getArtist());
+        }
+
+        model.addAttribute("collaborateurs", collaborateurs);
         model.addAttribute("show", show);
         model.addAttribute("title", "Fiche d'un spectacle");
 
