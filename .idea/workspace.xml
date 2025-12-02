@@ -4,17 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Simple authorization's technique">
+    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Modèle Artist+migration +données iniitiales">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/LocalityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/LocalityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/TypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/LocalityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_1__create_types_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2_2__insert_types_table" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3_1__create_localities_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3_2__insert_localities_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4_1__create_roles_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4_2__insert_roles_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/locality/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/locality/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/role/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/role/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/type/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/type/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ArtistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ArtistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/ArtistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/ArtistService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764699151641</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modèle Artist+migration +données iniitiales">
+      <created>1764699963960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764699963960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +161,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="Profile delete" />
     <MESSAGE value="Simple authorization's technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple authorization's technique" />
+    <MESSAGE value="Modèle Artist+migration +données iniitiales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modèle Artist+migration +données iniitiales" />
   </component>
 </project>
