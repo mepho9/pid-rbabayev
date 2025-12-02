@@ -29,6 +29,8 @@ public class User {
 
     @ManyToMany(mappedBy = "users")
     private List<Role> roles = new ArrayList<>();
+    @ManyToMany(mappedBy = "users")
+    private List<Representation> representations = new ArrayList<>();
 
     protected User() {}
 
@@ -117,6 +119,27 @@ public class User {
         return this;
     }
 
+    public List<Representation> getRepresentations() {
+        return representations;
+    }
+
+    public User addRepresentation(Representation representation) {
+        if(!this.representations.contains(representation)) {
+            this.representations.add(representation);
+            representation.addUser(this);
+        }
+
+        return this;
+    }
+
+    public User removeRepresentation(Representation representation) {
+        if(this.representations.contains(representation)) {
+            this.representations.remove(representation);
+            representation.getUsers().remove(this);
+        }
+
+        return this;
+    }
     @Override
     public String toString() {
         return login + "(" + firstname + " " + lastname + ")";
