@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Modèle Show +Relation ManyToOne with Location">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ShowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/show/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/show/show.html" afterDir="false" />
+    <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="Controller Show +templates +routes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Representation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/RepresentationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/RepresentationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7_2__insert_representations_table.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Show.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764704468286</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Controller Show +templates +routes">
+      <created>1764704568011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764704568011</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +185,7 @@
     <MESSAGE value="Modèle Location +Relation ManyToOne with Locality" />
     <MESSAGE value="Controller Locality +template +route" />
     <MESSAGE value="Modèle Show +Relation ManyToOne with Location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modèle Show +Relation ManyToOne with Location" />
+    <MESSAGE value="Controller Show +templates +routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller Show +templates +routes" />
   </component>
 </project>
