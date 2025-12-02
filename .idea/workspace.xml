@@ -5,41 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1577c786-8eb7-4b1e-90e6-bdfff472d810" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pid_p.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/src/main/java/com/example/pid_rbabayev/PidRbabayevApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pid-rbabayev/src/test/java/com/example/pid_rbabayev/PidRbabayevApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/config/ThymeleafConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/config/ThymeleafConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/controller/ArtistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ArtistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/dto/UserProfileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/dto/UserProfileDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/dto/UserRegistrationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/dto/UserRegistrationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/model/PasswordResetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/PasswordResetToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/repository/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/ArtistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/repository/PasswordResetTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/PasswordResetTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/service/ArtistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/ArtistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/service/PasswordResetTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/PasswordResetTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/service/TokenCleanup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/TokenCleanup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/validation/PasswordMatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/validation/PasswordMatches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/validation/PasswordMatchesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/validation/PasswordMatchesValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/validation/StrongPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/validation/StrongPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservationsspringboot/validation/StrongPasswordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/iccbxl/pid/reservations_springboot/validation/StrongPasswordValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +75,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/pidgrpgit"
+    "last_opened_file_path": "C:/pidgrpgit",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -115,5 +109,16 @@
       <updated>1764624620681</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
