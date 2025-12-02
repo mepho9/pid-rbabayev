@@ -28,6 +28,9 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @Column(name = "deleted_at")
+    private LocalDateTime deletedAt;
+
     private String firstname;
     private String lastname;
 

@@ -1,5 +1,6 @@
 package be.iccbxl.pid.reservations_springboot.service;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,4 +82,13 @@ public class UserService {
 	public void deleteUser(long id) {
 		userRepository.deleteById(id);
 	}
+
+
+	public void deleteByLogin(String login) {
+		userRepository.findByLogin(login).ifPresent(user -> {
+			user.setDeletedAt(LocalDateTime.now());
+			userRepository.save(user);
+		});
+	}
+
 }
